@@ -9,4 +9,4 @@ urlpatterns = [
     path('allboxes',views.allBoxes),
     path('box',views.addBox),
     path('box/<str:pk>',BoxClass.as_view()),
-]a
+]
