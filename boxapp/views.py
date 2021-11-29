@@ -2,7 +2,7 @@ from rest_framework.decorators import api_view
 from django.http import JsonResponse
 from rest_framework.serializers import Serializer
 from rest_framework.views import APIView
-from apiservice.models import Profile, Store, Box
+from boxapp.models import Profile, Store, Box
 from .serializers import BoxSerializer1, BoxSerializer2
 from django.contrib.auth.models import User
 from .signals import createProfile
